@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1 {
+    padding: 20px;
+    margin-bottom: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+.container-selects {
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 0.5rem 0.9rem;
+    box-sizing: border-box;
+}
